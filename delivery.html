@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>طلب ديلفيري</title>
+  <link rel="stylesheet" href="delivery.css">
+  <link href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>طلب ديلفيري</h1>
+    <h2>اختر الأصناف</h2>
+    <div id="menuItems" class="menu-grid"></div>
+    <p id="totalPrice">الإجمالي: 0 جنيه</p>
+
+    <form id="deliveryForm">
+      <h2>بيانات التوصيل</h2>
+      <div class="form-group">
+        <label for="phone">رقم الهاتف</label>
+        <input type="tel" id="phone" name="phone" placeholder="01234567890" required>
+      </div>
+      <div class="form-group">
+        <label for="address">العنوان</label>
+        <textarea id="address" name="address" placeholder="أدخل العنوان بالتفصيل" required></textarea>
+      </div>
+
+      <h2>طريقة الدفع</h2>
+      <div class="form-group payment-methods">
+        <label>
+          <input type="radio" name="payment" value="cash" checked> كاش
+        </label>
+        <label>
+          <input type="radio" name="payment" value="card"> بطاقة ائتمان
+        </label>
+      </div>
+
+      <button type="submit">تأكيد الطلب</button>
+    </form>
+    <div id="formMessage"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="delivery.js"></script>
+</body>
+</html>

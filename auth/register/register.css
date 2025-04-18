@@ -1,0 +1,200 @@
+body {
+  font-family: "Markazi Text", serif;
+  color: #1a1a1a;
+}
+
+.header .logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.header .btn-outline-light {
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+}
+.header .btn-outline-light:hover {
+  background-color: #d97706;
+  border-color: #d97706;
+  color: #fff;
+}
+
+.register-section {
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.register-section:before, .register-section:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background: repeating-linear-gradient(45deg, #d97706, #d97706 30px, #8B4513 30px, #8B4513 60px, #2a2a2a 60px, #2a2a2a 90px);
+  background-size: 90px 30px;
+}
+.register-section:before {
+  top: 0;
+}
+.register-section:after {
+  bottom: 0;
+}
+.register-section .section-subtitle {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.register-section .section-subtitle:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  background: #d97706;
+}
+.register-section .section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+}
+.register-section .register-form {
+  background: #f8f8f8;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+.register-section .register-form .form-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+.register-section .register-form .input-group-text {
+  background: #d97706;
+  color: #fff;
+  border: none;
+}
+.register-section .register-form .form-control {
+  border: 1px solid #ddd;
+  border-radius: 0 5px 5px 0;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  transition: border-color 0.3s ease;
+}
+.register-section .register-form .form-control:focus {
+  border-color: #d97706;
+  box-shadow: none;
+}
+.register-section .register-form .btn-warning {
+  font-size: 1.2rem;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+}
+.register-section .register-form .btn-warning:hover {
+  background-color: #a75c05;
+  transform: translateY(-2px);
+}
+.register-section p a {
+  color: #d97706;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-section p a:hover {
+  text-decoration: underline;
+}
+.register-section #formMessage {
+  font-size: 1rem;
+}
+.register-section #formMessage.success {
+  color: green;
+}
+.register-section #formMessage.error {
+  color: red;
+}
+.register-section .decorative-icon {
+  position: absolute;
+  color: #d97706;
+  font-size: 2rem;
+  opacity: 0.1;
+}
+.register-section .decorative-icon.lantern {
+  top: 15%;
+  right: 5%;
+  animation: float 3s ease-in-out infinite;
+}
+.register-section .decorative-icon.crescent {
+  top: 10%;
+  right: 10%;
+  animation: float 4s ease-in-out infinite;
+}
+.register-section .decorative-icon.star {
+  top: 5%;
+  right: 15%;
+  animation: float 5s ease-in-out infinite;
+}
+.register-section .toast-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #f8f8f8;
+  color: #1a1a1a;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-right: 4px solid #d97706;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+.register-section .toast-message.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+@media (max-width: 576px) {
+  .register-section .register-form {
+    padding: 1.5rem;
+  }
+  .register-section .register-form .form-label {
+    font-size: 1rem;
+  }
+  .register-section .register-form .form-control {
+    font-size: 1rem;
+  }
+  .register-section .register-form .btn-warning {
+    font-size: 1.1rem;
+  }
+  .register-section .section-title {
+    font-size: 2.5rem;
+  }
+  .register-section .section-subtitle {
+    font-size: 1rem;
+  }
+  .register-section .toast-message {
+    width: 90%;
+    right: 5%;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=register.css.map */

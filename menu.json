@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "category": "grilled",
+    "title": "كفتة مشوية",
+    "description": "كفتة مشوية على الفحم مع خبز بلدي وسلطة طحينة.",
+    "price": "120 جنيه",
+    "image": "./image/كفته مشويه.jpg"
+  },
+  {
+    "id": 2,
+    "category": "grilled",
+    "title": "فراخ مشوية",
+    "description": "فؤاح مشوية على الفحم مع خبز بلدي وسلطة طحينة.",
+    "price": "120 جنيه",
+    "image": "./image/فراخ مشويه.jpg"
+  },
+  {
+    "id": 3,
+    "category": "stuffed",
+    "title": "ورق عنب",
+    "description": "ورق عنب محشي بالأرز والخضروات، مقدم مع لبن زبادي.",
+    "price": "80 جنيه",
+    "image": "./image/ورق عنب.jpg"
+  },
+  {
+    "id": 4,
+    "category": "stuffed",
+    "title": "محشي كرنب",
+    "description": "كرنب محشي بالأرز والخضروات، مقدم مع لبن زبادي.",
+    "price": "100 جنيه",
+    "image": "./image/كرنب.jpg"
+  },
+  {
+    "id": 5,
+    "category": "kids",
+    "title": "وجبة أطفال",
+    "description": "ناجتس دجاج مع بطاطس مقلية وعصير برتقال صغير.",
+    "price": "60 جنيه",
+    "image": "./image/وجبه اطفال.jpg"
+  },
+  {
+    "id": 6,
+    "category": "family",
+    "title": "وجبة عائلية",
+    "description": "تشكيلة مشاوي مشكلة مع أرز وسلطات لـ 4 أشخاص.",
+    "price": "350 جنيه",
+    "image": "./image/وجبه عائليه.jpg"
+  },
+  {
+    "id": 7,
+    "category": "soup",
+    "title": "شوربة عدس",
+    "description": "شوربة عدس مصرية ساخنة مقدمة مع خبز محمص.",
+    "price": "40 جنيه",
+    "image": "./image/شوربه عدس.jpg"
+  },
+  {
+    "id": 8,
+    "category": "soup",
+    "title": "شوربة لسان عصفور",
+    "description": "شوربة لسان عصفور مصرية ساخنة مقدمة مع قطع فراخ.",
+    "price": "40 جنيه",
+    "image": "./image/شوربه لسان عصفور.jpg"
+  },
+  {
+    "id": 9,
+    "category": "butter",
+    "title": "حمام محمر",
+    "description": "حمام محمر بالزبدة مع أرز بالمكسرات.",
+    "price": "150 جنيه",
+    "image": "./image/حمام محمر.jpg"
+  },
+  {
+    "id": 10,
+    "category": "oven",
+    "title": "طاجن بامية",
+    "description": "بامية باللحمة مطهية في الفرن مع خبز بلدي.",
+    "price": "100 جنيه",
+    "image": "./image/طاجن بميه.jpg"
+  },
+  {
+    "id": 11,
+    "category": "traditional",
+    "title": "كشري",
+    "description": "كشري مصري أصيل مع صلصة الطماطم والدقة.",
+    "price": "50 جنيه",
+    "image": "./image/كشري.jpg"
+  },
+  {
+    "id": 12,
+    "category": "grilled",
+    "title": "بطه مشوية",
+    "description": "بطه مشوية على الفحم مع خبز بلدي وسلطة طحينة.",
+    "price": "620 جنيه",
+    "image": "./image/بط.jpg"
+  },
+  {
+    "id": 13,
+    "category": "grilled",
+    "title": "كباب حله",
+    "description": "كباب حله مع سلطه",
+    "price": "190 جنيه",
+    "image": "./image/كباب حبه.jpg"
+  },
+  {
+    "id": 14,
+    "category": "grilled",
+    "title": "طبق رز بسمتي",
+    "description": "رز بسمتي مع مكسرات",
+    "price": "120 جنيه",
+    "image": "./image/رز بسمتي.jpg"
+  },
+  {
+    "id": 15,
+    "category": "oven",
+    "title": "طاجن عكاوي",
+    "description": "طاجن عكاوي مع سلطه",
+    "price": "190 جنيه",
+    "image": "./image/طاجن عكاوي.jpg"
+  }
+]
