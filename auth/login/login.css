@@ -1,1 +1,174 @@
-/*# sourceMappingURL=login.css.map */
+body {
+  font-family: "Markazi Text", serif;
+  color: #1a1a1a;
+}
+
+.header .logo {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.header .btn-outline-light {
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+}
+.header .btn-outline-light:hover {
+  background-color: #d97706;
+  border-color: #d97706;
+  color: #fff;
+}
+
+.login-section {
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.login-section:before, .login-section:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background: repeating-linear-gradient(45deg, #d97706, #d97706 30px, #8B4513 30px, #8B4513 60px, #2a2a2a 60px, #2a2a2a 90px);
+  background-size: 90px 30px;
+}
+.login-section:before {
+  top: 0;
+}
+.login-section:after {
+  bottom: 0;
+}
+.login-section .section-subtitle {
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.login-section .section-subtitle:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  background: #d97706;
+}
+.login-section .section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+}
+.login-section .login-form {
+  background: #f8f8f8;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+.login-section .login-form .form-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+.login-section .login-form .input-group-text {
+  background: #d97706;
+  color: #fff;
+  border: none;
+}
+.login-section .login-form .form-control {
+  border: 1px solid #ddd;
+  border-radius: 0 5px 5px 0;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  transition: border-color 0.3s ease;
+}
+.login-section .login-form .form-control:focus {
+  border-color: #d97706;
+  box-shadow: none;
+}
+.login-section .login-form .btn-warning {
+  font-size: 1.2rem;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+}
+.login-section .login-form .btn-warning:hover {
+  background-color: #a75c05;
+  transform: translateY(-2px);
+}
+.login-section p a {
+  color: #d97706;
+  text-decoration: none;
+  font-weight: 600;
+}
+.login-section p a:hover {
+  text-decoration: underline;
+}
+.login-section #formMessage {
+  font-size: 1rem;
+}
+.login-section #formMessage.success {
+  color: green;
+}
+.login-section #formMessage.error {
+  color: red;
+}
+.login-section .decorative-icon {
+  position: absolute;
+  color: #d97706;
+  font-size: 2rem;
+  opacity: 0.1;
+}
+.login-section .decorative-icon.lantern {
+  top: 15%;
+  right: 5%;
+  animation: float 3s ease-in-out infinite;
+}
+.login-section .decorative-icon.crescent {
+  top: 10%;
+  right: 10%;
+  animation: float 4s ease-in-out infinite;
+}
+.login-section .decorative-icon.star {
+  top: 5%;
+  right: 15%;
+  animation: float 5s ease-in-out infinite;
+}
+@media (max-width: 576px) {
+  .login-section .login-form {
+    padding: 1.5rem;
+  }
+  .login-section .login-form .form-label {
+    font-size: 1rem;
+  }
+  .login-section .login-form .form-control {
+    font-size: 1rem;
+  }
+  .login-section .login-form .btn-warning {
+    font-size: 1.1rem;
+  }
+  .login-section .section-title {
+    font-size: 2.5rem;
+  }
+  .login-section .section-subtitle {
+    font-size: 1rem;
+  }
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=login.css.map */

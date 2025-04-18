@@ -901,37 +901,45 @@ header.navbar .profile-pic img:hover {
   }
 }
 @media (max-width: 576px) {
-  .menu-section .menu-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: space-between;
+  .menu-section .menu-item {
+    flex-shrink: 0;
+    width: 50%;
+    max-width: 100%;
   }
-  .menu-section .menu-items .menu-item {
-    flex: 0 0 48% !important;
-    max-width: 48%;
-    margin-bottom: 1rem;
+  .menu-section .menu-item .menu-card {
+    min-height: 350px;
   }
-  .menu-section .menu-items .menu-item .menu-card {
-    min-height: 300px;
+  .menu-section .menu-item .menu-card .menu-image {
+    height: 180px;
   }
-  .menu-section .menu-items .menu-item .menu-card .menu-image {
-    height: 150px;
-  }
-  .menu-section .menu-items .menu-item .menu-card .menu-content {
+  .menu-section .menu-item .menu-card .menu-content {
     padding: 1rem;
   }
-  .menu-section .menu-items .menu-item .menu-card .menu-content .menu-title {
+  .menu-section .menu-item .menu-card .menu-content .menu-title {
     font-size: 1.3rem;
   }
-  .menu-section .menu-items .menu-item .menu-card .menu-content .menu-description {
+  .menu-section .menu-item .menu-card .menu-content .menu-description {
     font-size: 0.9rem;
   }
-  .menu-section .menu-items .menu-item .menu-card .menu-content .menu-price {
+  .menu-section .menu-item .menu-card .menu-content .menu-price {
     font-size: 1.1rem;
   }
-  .menu-section .menu-filters .filter-btn {
-    font-size: 0.9rem;
-    padding: 0.4rem 0.8rem;
+}
+.menu-section .menu-filters .filter-btn {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .hero .hero-content h1 {
+    font-size: 3.5rem;
+  }
+  .hero .hero-content p {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .about-section .row .col-6 {
+    width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,6 +1,8 @@
 $primary-color: #d97706; 
 $secondary-color: #1a1a1a;
 
+
+
 body {
   color: $secondary-color;
   font-family: 'Markazi Text', serif;
@@ -212,6 +214,7 @@ header.navbar {
     background-color: darken($primary-color, 10%);
     border-color: darken($primary-color, 10%);
   }
+  
 }
 
 
@@ -1071,3 +1074,24 @@ header.navbar {
       }
     }
   
+
+
+    @media (max-width: 768px) {
+      .hero{
+        .hero-content{
+          h1{
+            font-size: 3.5rem ;
+          }
+          p{
+            font-size: 2rem;
+          }
+
+        }
+      }
+    }
+
+    @media (max-width: 576px) {
+      .about-section .row .col-6 {
+          width: 50%;
+      }
+  }
